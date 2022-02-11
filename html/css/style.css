@@ -1,0 +1,196 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background: url(../img/background.png);
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Btn a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px;
+}
+
+.Btn a .Active{
+	background-color: #EB43A3;
+}
+
+.Btn a:hover{
+	background-color:#EB43A3;
+	transition: 0.5s;
+}
+
+header{
+	background-color: #C55394;
+	color: #FFF;
+	font-family: 'Courgette', cursive;
+	padding: 10px;
+	
+}
+
+
+.banner{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image:url(../img/rainbow.png)
+}
+
+
+.banner .bgtitle{
+	text-align: center;
+	color: #FF69E2;
+	font-family: 'Courgette', cursive;
+	font-weight: bolder;
+	text-shadow: 0px 3px 10px rgba(0, 0, 0, .1);
+	padding: 100px;
+}
+
+.banner .bnr1{
+	background-position: center;
+}
+
+.content{
+	margin:0 auto 40px;
+	width: 70%;
+	box-shadow: 0px 3px 20px rgba(0, 0, 0, .2);
+	border-radius: 5px;
+	background-color: #FFF;
+	
+}
+
+.article{
+	padding: 10px;
+}
+
+.article p {
+	text-align: justify;
+	padding: 20px;
+}
+
+.article img {
+	padding-right: 20px;
+}
+.article .title {
+	display: flex;
+	align-items: center;
+	color: #FF69E2;
+	padding: 10px 0px;
+}
+
+.article .art1 p{
+	color: #FF69E2;
+	font-family: 'Courgette', cursive;
+}
+
+.article .art1 a{
+	display: block;
+}
+
+.article .art1{
+	display: flex;
+}
+
+.article .art2{
+	justify-content: space-between;
+}
+.mail button{
+	background-color: #EB43A3;
+	color: #FFF;
+	border-radius: 3px;
+	border-color: #EB43A3;
+	width: 90px;
+	box-shadow: 2px;
+
+}
+.Group_Box{
+	display: flex;
+}
+
+.Box1{
+	width: 25%;
+	margin: 0px 10px;
+	height: 240px;
+	background: url("../img/unicorns/photo1.jpg") 0px 10px no-repeat;
+	background-size: cover;
+	transition: .5s;
+}
+
+
+.Box2{
+	width: 25%;
+	margin: 0px 10px;
+	height: 240px;
+	background: url("../img/unicorns/photo2.jpg") 0px 10px no-repeat;
+	background-size: cover;
+	transition: .5s;
+}
+
+.Box3{
+	width: 25%;
+	margin: 0px 10px;
+	height: 240px;
+	background: url("../img/unicorns/photo3.jpg") 0px 10px no-repeat;
+	background-size: cover;
+	transition: .5s;
+}
+
+.Box4{
+	width: 25%;
+	margin: 0px 10px;
+	height: 240px;	
+	background: url("../img/unicorns/photo4.jpg") 0px 10px no-repeat;
+	background-size: cover;
+	transition: .5s;
+}
+
+
+.Box1 .Box_bottom, .Box2 .Box_bottom, .Box3 .Box_bottom, .Box4 .Box_bottom{
+	width: 100%;
+	background-color: rgb(32, 32, 32);
+	opacity: .5;
+	margin-top: 182px;
+	color: #FFFFFF;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.Box1 .Box_bottom:hover, .Box2 .Box_bottom:hover, .Box3 .Box_bottom:hover, .Box4 .Box_bottom:hover{
+	opacity: 1;
+}
+
+footer{
+	background-color: #C55394;
+	color: #FFF;
+	padding: 10px;
+
+}
+
+
+footer p{
+text-align: right;
+}
+
+input {
+	font-size: 1rem;
+	width: 200px;
+	height: 30px;
+  }
+  /* ......bouton à valider.... */
+  button {
+	width: 100px;
+	height: 35px;
+	background: #eb43a3;
+  }
+  /* .....le Liens.....  */
+  button a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
